@@ -1,0 +1,8 @@
+body {
+  font-family: sans-serif;
+}
+.hidden {
+  /* opacity: 0;
+  position: absolute; */
+  display: none;
+}

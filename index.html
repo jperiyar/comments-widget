@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="new-comment-wrapper"></div>
+
+    <div class="comments-list-wrapper"></div>
+
+    <template id="comment-template">
+      <div class="comment-container">
+        <div class="content"></div>
+        <div class="actions">
+          <a class="reply">Reply</a>
+          <a class="delete">Delete</a>
+        </div>
+        <div class="reply-input"></div>
+        <div class="nested-comment"></div>
+      </div>
+    </template>
+
+    <template id="comment-input-template">
+      <textarea class="input-area hidden" rows="1" cols="30"></textarea>
+    </template>
+
+    <script defer src="src/fbcomments.js"></script>
+  </body>
+</html>
